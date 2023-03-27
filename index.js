@@ -19,6 +19,7 @@ function handleClick() {
         })
 }
 
+
 newDeckBtn.addEventListener("click", handleClick)
 
 drawCardBtn.addEventListener("click", () => {
