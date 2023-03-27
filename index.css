@@ -1,7 +1,8 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-image: url("img/table.png");
+    background-image: url("grass.jpg");
+    background-size: cover;
     font-family: "Exo 2", sans-serif;
     height: 100vh;
 }
@@ -33,7 +34,7 @@ button.draw {
 }
 
 div.card-slot {
-    border: 1px solid black;
+    border: 5px solid black;
     border-radius: 5px;
     height: 120px;
     width: calc(120px * 5 / 7);
