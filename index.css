@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -20,24 +24,26 @@ button {
     background-color: #FFF100;
     cursor: pointer;
     border: none;
+    font-size: 5rem;
 }
 
 button#new-deck {
     align-self: flex-start;
-    padding: 5px;
+    padding: 0.9rem;
 }
 
 button.draw {
-    font-size: 1.2em;
-    padding: 5px;
+    font-size: 5.2em;
+    padding: 2.3rem;
     align-self: stretch;
 }
 
 div.card-slot {
-    border: 5px solid black;
-    border-radius: 5px;
-    height: 120px;
-    width: calc(120px * 5 / 7);
+    border: 5px solid white;
+    border-radius: 0.3rem;
+    height: 28rem;
+    width: calc(25rem * 5 / 7);
+    
 }
 
 div.card-slot:nth-of-type(1) {
@@ -56,7 +62,9 @@ div.top {
 
 div.top > p {
     margin: 0;
-    margin-left: 10px;
+    margin-left: 0.7rem;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 button:disabled {
@@ -64,5 +72,10 @@ button:disabled {
 }
 
 h2 {
-    margin: 10px;
+    margin: 0.7rem;
+    font-size: 8rem;
+    font-weight: bolder;
+}
+h3 {
+    font-size: 5rem;
 }
